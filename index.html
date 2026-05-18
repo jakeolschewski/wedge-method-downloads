@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wedge Method — Printable Coloring Books & Wall Art</title>
+<meta name="description" content="Instant download printable coloring books and wall art by Wedge Method. 54 unique coloring books from $4.99. Mandalas, botanical, celestial, cats, dogs, and more.">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; color:#1a1a2e; background:#fff; }
+  header { background:#1a1a2e; color:#fff; padding:16px 24px; display:flex; justify-content:space-between; align-items:center; }
+  header h1 { font-size:1.4rem; font-weight:700; letter-spacing:0.05em; }
+  header nav a { color:#e8c84a; text-decoration:none; margin-left:20px; font-size:0.9rem; }
+  .hero { background:linear-gradient(135deg,#1a1a2e 0%,#2d2d5e 50%,#1a3a2e 100%); color:#fff; padding:80px 24px; text-align:center; }
+  .hero h2 { font-size:2.8rem; font-weight:800; margin-bottom:16px; line-height:1.2; }
+  .hero h2 span { color:#e8c84a; }
+  .hero p { font-size:1.2rem; color:#ccc; margin-bottom:32px; max-width:600px; margin-left:auto; margin-right:auto; }
+  .btn { display:inline-block; background:#e8c84a; color:#1a1a2e; padding:16px 36px; border-radius:50px; font-weight:700; font-size:1.1rem; text-decoration:none; margin:8px; transition:transform 0.2s; }
+  .btn:hover { transform:translateY(-2px); }
+  .btn-outline { background:transparent; color:#e8c84a; border:2px solid #e8c84a; }
+  .features { display:flex; justify-content:center; gap:40px; margin-top:40px; flex-wrap:wrap; }
+  .feature { text-align:center; }
+  .feature .icon { font-size:2rem; margin-bottom:8px; }
+  .feature p { font-size:0.9rem; color:#aaa; }
+  section { padding:64px 24px; max-width:1100px; margin:0 auto; }
+  h3 { font-size:1.8rem; font-weight:700; margin-bottom:32px; text-align:center; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:24px; }
+  .card { border:1px solid #eee; border-radius:16px; overflow:hidden; transition:box-shadow 0.2s; }
+  .card:hover { box-shadow:0 8px 32px rgba(0,0,0,0.12); }
+  .card-img { background:linear-gradient(135deg,#1a1a2e,#2d2d5e); height:160px; display:flex; align-items:center; justify-content:center; font-size:3rem; }
+  .card-body { padding:20px; }
+  .card-body h4 { font-size:1rem; font-weight:700; margin-bottom:8px; }
+  .card-body p { font-size:0.85rem; color:#666; margin-bottom:16px; }
+  .card-body .price { font-size:1.2rem; font-weight:800; color:#1a1a2e; }
+  .card-body a { display:block; text-align:center; background:#1a1a2e; color:#fff; padding:10px; border-radius:8px; text-decoration:none; font-size:0.9rem; font-weight:600; margin-top:12px; }
+  .card-body a:hover { background:#e8c84a; color:#1a1a2e; }
+  .bundles { background:#f8f8ff; border-radius:24px; padding:48px; text-align:center; margin:32px 0; }
+  .bundles h3 { margin-bottom:16px; }
+  .bundles p { color:#555; margin-bottom:24px; max-width:500px; margin-left:auto; margin-right:auto; }
+  .bundle-cards { display:flex; gap:24px; justify-content:center; flex-wrap:wrap; margin-top:32px; }
+  .bundle-card { background:#fff; border-radius:16px; padding:32px; min-width:240px; border:2px solid #1a1a2e; }
+  .bundle-card h4 { font-size:1.3rem; font-weight:800; margin-bottom:8px; }
+  .bundle-card .big-price { font-size:2.5rem; font-weight:900; color:#1a1a2e; margin:16px 0; }
+  .bundle-card ul { text-align:left; list-style:none; margin-bottom:24px; }
+  .bundle-card li { padding:4px 0; font-size:0.9rem; color:#555; }
+  .bundle-card li::before { content:"✓ "; color:#2d7a4f; font-weight:700; }
+  .bundle-card.featured { background:#1a1a2e; color:#fff; border-color:#e8c84a; }
+  .bundle-card.featured h4 { color:#e8c84a; }
+  .bundle-card.featured .big-price { color:#e8c84a; }
+  .bundle-card.featured li { color:#ccc; }
+  .bundle-card.featured li::before { color:#e8c84a; }
+  .bundle-card a { display:block; text-align:center; background:#e8c84a; color:#1a1a2e; padding:14px; border-radius:10px; font-weight:700; text-decoration:none; }
+  .bundle-card.featured a { background:#e8c84a; }
+  .themes { display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:24px; }
+  .tag { background:#f0f0ff; border:1px solid #ddf; padding:6px 16px; border-radius:20px; font-size:0.85rem; color:#1a1a2e; }
+  .free-banner { background:linear-gradient(135deg,#2d7a4f,#1a5a3f); color:#fff; padding:32px; border-radius:16px; text-align:center; margin:32px 0; }
+  .free-banner h3 { color:#fff; margin-bottom:12px; }
+  .free-banner p { color:#cce; margin-bottom:20px; }
+  footer { background:#1a1a2e; color:#999; padding:32px 24px; text-align:center; }
+  footer a { color:#e8c84a; text-decoration:none; }
+  @media(max-width:600px){ .hero h2{font-size:2rem;} .bundle-cards{flex-direction:column;} }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>WEDGE METHOD</h1>
+  <nav>
+    <a href="https://wedgemethod.gumroad.com">Shop</a>
+    <a href="https://www.etsy.com/shop/WedgeMethod">Etsy</a>
+    <a href="mailto:thewedgemethodai@gmail.com">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Printable Coloring Books<br><span>You'll Actually Love</span></h2>
+  <p>54 beautifully designed coloring books with intricate mandala and pattern pages. Download instantly, print at home, color forever.</p>
+  <a href="https://wedgemethod.gumroad.com" class="btn">Browse All Books →</a>
+  <a href="https://wedgemethod.gumroad.com/l/free-coloring-sampler" class="btn btn-outline">Get 5 FREE Pages</a>
+  <div class="features">
+    <div class="feature"><div class="icon">⚡</div><p>Instant Download</p></div>
+    <div class="feature"><div class="icon">🖨️</div><p>Print Unlimited Times</p></div>
+    <div class="feature"><div class="icon">📐</div><p>300 DPI Quality</p></div>
+    <div class="feature"><div class="icon">📄</div><p>US Letter & A4</p></div>
+  </div>
+</div>
+
+<section>
+  <h3>Popular Coloring Books — $4.99 Each</h3>
+  <div class="grid">
+    <div class="card"><div class="card-img">🦋</div><div class="card-body"><h4>Beautiful Butterflies</h4><p>20 intricate butterfly mandalas</p><div class="price">$4.99</div><a href="https://wedgemethod.gumroad.com/l/coloring-butterflies-book">Download Now</a></div></div>
+    <div class="card"><div class="card-img">🌙</div><div class="card-body"><h4>Celestial & Moon</h4><p>20 celestial mandala designs</p><div class="price">$4.99</div><a href="https://wedgemethod.gumroad.com/l/coloring-celestial-book">Download Now</a></div></div>
+    <div class="card"><div class="card-img">🐱</div><div class="card-body"><h4>Cute Cats</h4><p>20 cat-themed mandalas</p><div class="price">$4.99</div><a href="https://wedgemethod.gumroad.com/l/coloring-cats-book">Download Now</a></div></div>
+    <div class="card"><div class="card-img">🌿</div><div class="card-body"><h4>Boho Dreamcatcher</h4><p>20 boho mandala patterns</p><div class="price">$4.99</div><a href="https://wedgemethod.gumroad.com/l/coloring-boho-book">Download Now</a></div></div>
+    <div class="card"><div class="card-img">🌊</div><div class="card-body"><h4>Ocean & Sea Life</h4><p>20 ocean mandala pages</p><div class="price">$4.99</div><a href="https://wedgemethod.gumroad.com/l/coloring-ocean-book">Download Now</a></div></div>
+    <div class="card"><div class="card-img">🍂</div><div class="card-body"><h4>Autumn & Fall</h4><p>20 seasonal mandala designs</p><div class="price">$4.99</div><a href="https://wedgemethod.gumroad.com/l/coloring-autumn-book">Download Now</a></div></div>
+  </div>
+</section>
+
+<section>
+  <div class="bundles">
+    <h3>Best Value Bundles</h3>
+    <p>Get more, spend less. Our bundles give you an entire library of coloring content at a fraction of the individual price.</p>
+    <div class="bundle-cards">
+      <div class="bundle-card">
+        <h4>Mega Bundle</h4>
+        <div class="big-price">$47</div>
+        <ul>
+          <li>All 54 coloring books</li>
+          <li>400+ unique pages</li>
+          <li>Every theme included</li>
+          <li>One instant download</li>
+        </ul>
+        <a href="https://wedgemethod.gumroad.com/l/coloring-books-mega-bundle">Get the Bundle →</a>
+      </div>
+      <div class="bundle-card featured">
+        <h4>Commercial License</h4>
+        <div class="big-price">$197</div>
+        <ul>
+          <li>All 54 books + resell rights</li>
+          <li>Sell printed copies</li>
+          <li>Use in workshops & schools</li>
+          <li>Create your own products</li>
+          <li>No royalties — keep 100%</li>
+        </ul>
+        <a href="https://wedgemethod.gumroad.com/l/coloring-books-commercial-license">Get License →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="free-banner">
+    <h3>Try Before You Buy — 100% Free</h3>
+    <p>Download 5 beautiful mandala coloring pages right now. No email required.</p>
+    <a href="https://wedgemethod.gumroad.com/l/free-coloring-sampler" class="btn">Get Free Pages →</a>
+  </div>
+</section>
+
+<section>
+  <h3>54 Themes — Something for Everyone</h3>
+  <div class="themes">
+    <span class="tag">🦜 Birds</span><span class="tag">🐣 Baby Animals</span><span class="tag">🎨 Art Deco</span>
+    <span class="tag">⬡ Geometric</span><span class="tag">🦋 Butterflies</span><span class="tag">🌊 Ocean</span>
+    <span class="tag">🍂 Autumn</span><span class="tag">☯ Mandala</span><span class="tag">🌿 Boho</span>
+    <span class="tag">🌙 Celestial</span><span class="tag">🐱 Cats</span><span class="tag">🐶 Dogs</span>
+    <span class="tag">🏕️ Camping</span><span class="tag">🦇 Dark Academia</span><span class="tag">🦕 Dinosaurs</span>
+    <span class="tag">🐣 Easter</span><span class="tag">🌸 Botanical</span><span class="tag">✒️ Zentangle</span>
+    <span class="tag">🧚 Cottagecore</span><span class="tag">🧘 ADHD Calm</span><span class="tag">🎄 Christmas</span>
+    <span class="tag">🐾 Cute Animals</span><span class="tag">👗 Fashion</span><span class="tag">🎓 Graduation</span>
+    <span class="tag">🎃 Halloween</span><span class="tag">🐴 Horses</span><span class="tag">💫 Inspirational</span>
+    <span class="tag">🌸 Japanese Zen</span><span class="tag">🍣 Kawaii</span><span class="tag">🧜 Mermaids</span>
+    <span class="tag">🦄 Unicorns</span><span class="tag">🐉 Dragons</span><span class="tag">🍄 Mushrooms</span>
+    <span class="tag">👸 Princess</span><span class="tag">🦁 Safari</span><span class="tag">🚀 Space</span>
+    <span class="tag">🌵 Succulents</span><span class="tag">🍁 Thanksgiving</span><span class="tag">🌺 Tropical</span>
+    <span class="tag">🐠 Underwater</span><span class="tag">💐 Vintage Botanical</span><span class="tag">🌲 Woodland</span>
+    <span class="tag">🧘 Yoga</span><span class="tag">❤️ Valentine's Day</span><span class="tag">🎅 Father's Day</span>
+    <span class="tag">🚒 Firefighters</span><span class="tag">🍀 Gothic</span><span class="tag">🐠 Kawaii Food</span>
+    <span class="tag">👶 Pregnancy</span><span class="tag">👩‍⚕️ Nurses</span><span class="tag">🍎 Teachers</span>
+    <span class="tag">📚 Large Print Seniors</span>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 <strong>Wedge Method LLC</strong> — EIN 41-4360476 | <a href="mailto:thewedgemethodai@gmail.com">thewedgemethodai@gmail.com</a></p>
+  <p style="margin-top:8px"><a href="https://wedgemethod.gumroad.com">Gumroad Shop</a> · <a href="https://www.etsy.com/shop/WedgeMethod">Etsy Shop</a> · <a href="https://pinterest.com/TheWedgeMethod">Pinterest</a></p>
+</footer>
+
+</body>
+</html>
